@@ -38,7 +38,7 @@
           </li>
 
           <li class="nav-item">
-            <router-link class="nav-link" to="/clients">Clients</router-link>
+            <!-- <router-link class="nav-link" to="/clients">Clients</router-link> -->
           </li>
 
           <!-- Dropdown Example for Resources -->
