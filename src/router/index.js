@@ -3,6 +3,8 @@ import Home from '@/components/landingpage/Home.vue'; // Ensure this path is cor
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
+
+  
   // Add more routes as necessary
 ];
 
