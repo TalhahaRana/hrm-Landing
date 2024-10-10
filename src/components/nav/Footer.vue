@@ -56,6 +56,36 @@
       </div>
     </div>
   </div>
+  
+  <div class="container my-3">
+   <hr>
+      <div class="row align-items-center">
+        <!-- Certifications Section -->
+        <div class="col-md-6 d-flex align-items-center">
+          <img src="../../assets/images/MiHCM-ISO-27001.svg" alt="ISO 27001 Certification" class="img-fluid me-4" width="100">
+          <img src="../../assets/images/MiHCM-ISO-9001.svg" alt="ISO 9001 Certification" class="img-fluid" width="100">
+        </div>
+
+        <!-- Legal and Social Links Section -->
+        <div class="col-md-6 text-md-right text-center mt-4 mt-md-0">
+          <ul class="list-inline m-3 d-flex justify-content-end">
+            <li class="list-inline-item mx-3"><a href="#" class="text-dark">Legal Notice</a></li>
+            <li class="list-inline-item mx-3"><a href="#" class="text-dark">Cookie Policy</a></li>
+            <li class="list-inline-item mx-3"><a href="#" class="text-dark">Privacy Policy</a></li>
+            <li class="list-inline-item "><a href="#" class="text-dark">Terms of Use</a></li>
+          </ul>
+
+          <ul class="list-inline d-flex justify-content-end">
+            <li class="list-inline-item mx-3"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item mx-3"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item mx-3"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item mx-3"><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li class="list-inline-item mx-3"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+          <p class="mb-0  d-flex justify-content-end">&copy; 2024 MiHCM, All Rights Reserved</p>
+        </div>
+      </div>
+    </div> 
 </footer>
   </template>
   
@@ -65,6 +95,7 @@
   };
   </script>
 <style scoped>
+ @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 .text-orange {
   color: orange;
 }
@@ -97,5 +128,14 @@ footer ul li a {
 footer ul li a:hover {
   text-decoration: none;
   color: orange;
+}
+hr{
+  border: 3px solid orange;
+    padding: 0px 0px;
+    opacity: 1.25;
+}
+i{
+  font-size: 28px;
+
 }
 </style>
