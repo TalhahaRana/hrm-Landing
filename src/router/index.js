@@ -7,6 +7,7 @@ import Carrers from '@/components/nav-component/company/Carrers.vue';
 import AboutUs from '@/components/nav-component/company/AboutUs.vue'
 import NewsRoom from '@/components/nav-component/company/NewsRoom.vue'
 const routes = [
+
   { path: '/', name: 'Home', component: Home },
   {
     path:'/blogs', name:'Blogs', component: Blogs
@@ -22,12 +23,19 @@ const routes = [
   },
   {
     path:'/careers' ,component: Carrers
-  }
+  },
+   {
+     path: '/whymihcm', name: 'whymihcm', component: () => import ('../components/nav-component/company/WhyMiHCM.vue')
+    },
+
+    {
+        path: '/legal-notice', name: 'legalnotice', component: () => import ('../components/legal/LegalNotice.vue')
+    },
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
-  routes,
+    history: createWebHistory(),
+    routes,
 });
 
 export default router;
