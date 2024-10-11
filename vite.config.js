@@ -7,5 +7,6 @@ export default defineConfig({
     alias: {
       '@': '/src', // This sets the alias for src
     },
+    
   },
 });

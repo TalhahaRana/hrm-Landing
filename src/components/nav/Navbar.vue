@@ -47,7 +47,7 @@
               Resources
             </a>
             <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="/blogs">Blog</a></li>
               <li><a class="dropdown-item" href="#">Case Studies</a></li>
             </ul>
           </li>
@@ -59,7 +59,8 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="companyDropdown">
               <li><a class="dropdown-item" href="#">About Us</a></li>
-              <li><a class="dropdown-item" href="#">Careers</a></li>
+              <li><a class="dropdown-item" href="/careers">Careers</a></li>
+              <li><a class="dropdown-item" href="/board-of-directors">Board of Directors</a></li>
             </ul>
           </li>
         </ul>
