@@ -3,6 +3,19 @@ import Home from '../components/landingpage/home.vue'; // Ensure this path is co
 
 const routes = [
     { path: '/', name: 'home', component: Home },
+    {
+        path: '/whymihcm',
+        name: 'whymihcm',
+        component: () =>
+            import ('../components/nav-component/company/WhyMiHCM.vue')
+    },
+
+    {
+        path: '/legal-notice',
+        name: 'legalnotice',
+        component: () =>
+            import ('../components/legal/LegalNotice.vue')
+    },
     // Add more routes as necessary
 ];
 

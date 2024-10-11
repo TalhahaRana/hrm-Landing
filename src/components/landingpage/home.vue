@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar />
+
     <div>
       <div class="gradient-section">
         <div class="row">
@@ -422,7 +422,7 @@
         </div>
       </div>
 
-      <div class="row testimonial-section m-0">
+      <div class="row testimonial-section m-0 ">
         <h5 class="text-center pb-4">Testimonials</h5>
         <h1 class="text-center"><strong>Our Client Stories </strong></h1>
         <h4 class="text-center pb-4">What our customers are saying about us</h4>
@@ -436,7 +436,7 @@
             <div class="carousel-inner">
               <!-- First slide -->
               <div class="carousel-item active">
-                <div class="row">
+                <div class="row gy-3">
                   <div class="col-md-6">
                     <div class="testimonial-item">
                       <img
@@ -444,7 +444,7 @@
                         alt="Nikkie Parnala"
                       />
                       <h4>Nikkie Parnala</h4>
-                      <p class="fw-bold">
+                      <p class="fw-bold designation">
                         HR Manager, Tech One<br />Philippines
                       </p>
                       <p><i class="fa-solid fa-quote-right"></i></p>
@@ -459,13 +459,13 @@
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <div class="testimonial-item">
+                    <div class="testimonial-item hide-on-mobile">
                       <img
                         src="/src/assets/images/Group-289253-1.webp"
                         alt="Lasantha Theverapperuma"
                       />
                       <h4>Lasantha Theverapperuma</h4>
-                      <p class="fw-bold">
+                      <p class="fw-bold designation">
                         Group Chief Digital Officer, Dialog<br />Sri Lanka
                       </p>
                       <p><i class="fa-solid fa-quote-right"></i></p>
@@ -483,7 +483,7 @@
 
               <!-- Second slide -->
               <div class="carousel-item">
-                <div class="row">
+                <div class="row gy-3">
                   <div class="col-md-6">
                     <div class="testimonial-item">
                       <img
@@ -491,7 +491,7 @@
                         alt="Another Person"
                       />
                       <h4>Another Person</h4>
-                      <p class="fw-bold">Position, Company<br />Country</p>
+                      <p class="fw-bold designation">Position, Company<br />Country</p>
                       <p><i class="fa-solid fa-quote-right"></i></p>
                       <p>
                         Another testimonial about how MiHCM has transformed
@@ -500,13 +500,13 @@
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <div class="testimonial-item">
+                    <div class="testimonial-item hide-on-mobile">
                       <img
                         src="/src/assets/images/Group-289253-1.webp"
                         alt="Yet Another Person"
                       />
                       <h4>Yet Another Person</h4>
-                      <p class="fw-bold">Position, Company<br />Country</p>
+                      <p class="fw-bold designation">Position, Company<br />Country</p>
                       <p><i class="fa-solid fa-quote-right"></i></p>
                       <p>
                         Another testimonial about how MiHCM's mobile app and
@@ -550,19 +550,15 @@
 
 
     </div>
-    <Footer />
+
   </div>
 </template>
 
 <script>
-import Navbar from "@/components/nav/Navbar.vue";
-import Footer from "@/components/nav/Footer.vue"; // Corrected spelling here
+
 
 export default {
-  components: {
-    Navbar,
-    Footer, // Corrected spelling here
-  },
+
   name: "MyComponent",
   mounted() {
     // Check if the Font Awesome script already exists to prevent multiple additions
@@ -968,6 +964,18 @@ h1,p,h2,h3,h4,h5{
     .testimonial-section h1{
       font-size: 2rem !important;
       margin-top: -10px;
+    }
+    .testimonial-section .designation{
+      font-size: 1rem !important;
+    }
+    .testimonial-section p{
+      font-size: 1rem !important;
+    }
+    .testimonial-section .testimonial-item{
+      padding: 30px !important;
+    }
+    .testimonial-section .hide-on-mobile{
+      display: none;
     }
 }
 
