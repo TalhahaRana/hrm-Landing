@@ -59,7 +59,8 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="companyDropdown">
               <li><a class="dropdown-item" href="#">About Us</a></li>
-              <li><a class="dropdown-item" href="#">Careers</a></li>
+              <li><a class="dropdown-item" href="/careers">Careers</a></li>
+              <li><a class="dropdown-item" href="/board-of-directors">Board of Directors</a></li>
             </ul>
           </li>
         </ul>
