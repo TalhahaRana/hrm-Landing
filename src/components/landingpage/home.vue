@@ -1,7 +1,4 @@
 <template>
-  <div>
-
-    <div>
       <div class="gradient-section">
         <div class="row">
           <!-- Left Column: Text Section -->
@@ -1070,9 +1067,4 @@ overflow:hidden ;
   }
 
 }
-
-
-
-
-
 </style>
