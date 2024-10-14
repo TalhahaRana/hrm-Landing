@@ -3,7 +3,7 @@
     <div class="container-fluid px-5">
       <!-- Brand Logo -->
       <router-link class="navbar-brand" to="/">
-        <img src="@/assets/images/logo.png" alt="Logo" height="60" >
+        <img src="@/assets/images/logo.png" alt="Logo" height="60" />
       </router-link>
 
       <!-- Toggle button for mobile view -->
@@ -28,7 +28,14 @@
 
           <!-- Dropdown Example for Products -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="productsDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Products
             </a>
             <ul class="dropdown-menu" aria-labelledby="productsDropdown">
@@ -38,12 +45,19 @@
           </li>
 
           <li class="nav-item">
-            <router-link class="nav-link" to="/clients">Clients</router-link>
+            <router-link class="nav-link" to="/MainClient">Clients</router-link>
           </li>
 
           <!-- Dropdown Example for Resources -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="resourcesDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Resources
             </a>
             <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
@@ -54,12 +68,24 @@
 
           <!-- Dropdown Example for Company -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="companyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="companyDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Company
             </a>
             <ul class="dropdown-menu" aria-labelledby="companyDropdown">
               <li><a class="dropdown-item" href="#">About Us</a></li>
               <li><a class="dropdown-item" href="#">Careers</a></li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <router-link to="./ContactUs">Contact Us</router-link>
+                </a>
+              </li>
             </ul>
           </li>
         </ul>
