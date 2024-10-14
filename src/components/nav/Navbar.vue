@@ -79,16 +79,9 @@
             </a>
 
             <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-
-              <li><a class="dropdown-item" href="#">Product 1</a></li>
-
-              <li><a class="dropdown-item" href="#">Product 2</a></li>
-
+              <li><a class="dropdown-item" href="/mihcm">MIHCM Lite</a></li>
             </ul>
-
           </li>
-
-
 
           <li class="nav-item">
 

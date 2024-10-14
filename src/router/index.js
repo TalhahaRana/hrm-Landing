@@ -7,15 +7,21 @@ import Carrers from '@/components/nav-component/company/Carrers.vue';
 import AboutUs from '@/components/nav-component/company/AboutUs.vue'
 import NewsRoom from '@/components/nav-component/company/NewsRoom.vue'
 import MainClient from "@/components/nav-component/client/MainClient.vue";
+import MihcmLite from "@/components/products/MihcmLite.vue";
 import ContactUs from "@/components/nav-component/company//Contact/ContactUs.vue";
 const routes = [
-  { path: '/', name: 'Home', component: Home },
+  { path: "/", name: "Home", component: Home },
   {
     path:'/blogs', name:'Blogs', component: Blogs
   },  { path: "/MainClient", name: "MainCLient", component: MainClient },
   { path: "/ContactUs", name: "ContactUs", component: ContactUs },
   {
     path:'/about-us', name:'AboutUs', component: AboutUs
+  },
+    {
+    path: "/mihcm",
+    name: "MihcmLite",
+    component: MihcmLite,
   },
   {
     path:'/news-room', name:'NewsRoom', component: NewsRoom
