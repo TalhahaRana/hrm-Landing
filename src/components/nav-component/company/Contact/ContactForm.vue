@@ -8,7 +8,6 @@
         </h2>
         <h1 class="main-heading">Connect With Us</h1>
       </div>
-
       <!-- Form Container -->
       <div class="form-container">
         <form class="contact-form">
@@ -29,10 +28,7 @@
             <label for="contact">Contact No *</label>
             <input type="text" id="contact" placeholder="Contact No" required />
           </div>
-          <div class="form-group">
-            <label for="company">Company *</label>
-            <input type="text" id="company" placeholder="Company" required />
-          </div>
+          
 
           <!-- Added Country Dropdown -->
           <div class="form-group">
@@ -46,28 +42,9 @@
             </select>
           </div>
 
-          <!-- Added No of Employees -->
-          <div class="form-group">
-            <label for="employees">No of Employees *</label>
-            <input
-              type="number"
-              id="employees"
-              placeholder="No of Employees"
-              required
-            />
-          </div>
+         
 
-          <!-- Added Message -->
-          <div class="form-group">
-            <label for="message">Message *</label>
-            <textarea
-              id="message"
-              rows="4"
-              placeholder="Your Message"
-              required
-            ></textarea>
-          </div>
-
+          
           <!-- Added Agreement Checkbox -->
           <div class="form-group">
             <input type="checkbox" id="agreement" required />
@@ -94,7 +71,7 @@
 
 .background-cover {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: linear-gradient(to bottom right, #0047ab, #00b7ff);
   position: relative;
   display: flex;
@@ -108,7 +85,7 @@
 
 .headings {
   text-align: center;
-  margin-top: 400px; /* Adds space between headings and the form container */
+  margin-top: 80px; /* Adds space between headings and the form container */
 }
 
 .top-heading {
@@ -132,7 +109,7 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   max-width: 500px;
   width: 100%;
-  /* margin-top: 600px; */
+  min-height: 550px; /* Decreased the height */
 }
 
 .contact-form {
@@ -190,7 +167,7 @@
   }
 
   .headings {
-    margin-top: 700px;
+    margin-top: 340px;
   }
   .top-heading {
     font-size: 16px;

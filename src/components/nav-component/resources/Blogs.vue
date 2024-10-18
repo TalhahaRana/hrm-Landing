@@ -1,7 +1,5 @@
 <template>
     <div>
-      <NavBar />
-
       <div class="blog-card">
         <div class="card-content m-5">
           <div class="header">

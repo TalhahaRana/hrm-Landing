@@ -93,7 +93,7 @@
 <style scoped>
 /* global office css  */
 .global-offices {
-  margin-top: 480px;
+  margin-top: 80px;
   height: 400px;
   text-align: center;
   padding: 20px;
@@ -166,12 +166,12 @@
 /* Adjust text sizes for smaller screens */
 @media (max-width: 1440px) {
   .global-offices {
-    margin-top: 500px;
+    margin-top: 300px;
   }
 }
 @media (max-width: 768px) {
   .global-offices {
-    margin-top: 650px;
+    margin-top: 450px;
   }
   .title {
     font-size: 1.5rem;

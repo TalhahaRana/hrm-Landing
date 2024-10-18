@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavBar />
     <div class="header-section">
       <img src="/src/assets/images/carrersHeader.png" alt="header-image" class="img-fluid" />
     </div>

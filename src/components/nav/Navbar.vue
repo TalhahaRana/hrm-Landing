@@ -116,11 +116,7 @@
             </a>
 
             <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-
-              <li><a class="dropdown-item" href="#">Blog</a></li>
-
-              <li><a class="dropdown-item" href="#">Case Studies</a></li>
-
+              <li><router-link class="dropdown-item" to="/blogs">Blog</router-link></li>
             </ul>
 
           </li>
@@ -146,26 +142,12 @@
               aria-expanded="false"
 
             >
-
               Company
-
             </a>
-
             <ul class="dropdown-menu" aria-labelledby="companyDropdown">
-
-              <li><a class="dropdown-item" href="#">About Us</a></li>
-
-              <li><a class="dropdown-item" href="#">Careers</a></li>
-
-              <li>
-
-                <a class="dropdown-item" href="#">
-
-                  <router-link to="./ContactUs">Contact Us</router-link>
-
-                </a>
-
-              </li>
+              <li><router-link class="dropdown-item" to="/about-us">About Us</router-link></li>
+              <li><router-link class="dropdown-item" to="/careers">Careers</router-link></li>
+              <li><router-link class="dropdown-item" to="/ContactUs">Contact Us</router-link></li>
 
             </ul>
 
